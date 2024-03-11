@@ -1,0 +1,10 @@
+name: call-campaign
+entryPoint: main.sc
+
+botEngine: v2
+language: pl
+
+sts:
+  noMatchThreshold: 0.2
+caila:
+  noMatchThreshold: 0.2

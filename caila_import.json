@@ -1,0 +1,588 @@
+{
+  "project" : {
+    "id" : "adv_2_0-1000025623-OGx",
+    "name" : "adv_2_0-1000025623-OGx",
+    "folder" : "/platform"
+  },
+  "settings" : {
+    "language" : "pl",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "transformer",
+    "timezone" : "UTC",
+    "extendedSettings" : {
+      "useShared" : false
+    },
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : true,
+      "answerValidationEnabled" : false,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
+  },
+  "intents" : [ {
+    "path" : "/Agreement",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Tak"
+    }, {
+      "text" : "Tak proszę panią tak"
+    }, {
+      "text" : "dobrze"
+    }, {
+      "text" : "tak tak"
+    }, {
+      "text" : "Oczywiście, zgadzam się."
+    }, {
+      "text" : "Tak, bez wątpienia."
+    }, {
+      "text" : "Jasne, że tak."
+    }, {
+      "text" : "Zgadzam się całkowicie."
+    }, {
+      "text" : "Tak, zgoda."
+    }, {
+      "text" : "Tak, akceptuję."
+    }, {
+      "text" : "Tak, to jest w porządku."
+    }, {
+      "text" : "Tak słucham"
+    }, {
+      "text" : "jak jest"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/OfferIsNoInteresting",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Nie, dziękuję. Nie jestem zainteresowana ofertą."
+    }, {
+      "text" : "Przykro mi, ale nie jestem zainteresowany."
+    }, {
+      "text" : "Mam już inne plany co do ogłoszenia mojej nieruchomości."
+    }, {
+      "text" : "Dziękuję, ale nie jestem zainteresowana."
+    }, {
+      "text" : "nie zgadzamy się na umieszczenie naszej oferty"
+    }, {
+      "text" : "nie nie chciałbym żeby ta oferta była w innych portalach"
+    }, {
+      "text" : "nie jesteśmy zainteresowani"
+    }, {
+      "text" : "jestem niezainteresowany"
+    }, {
+      "text" : "nie interesuje mnie"
+    }, {
+      "text" : "bo nie jestem zainteresowany"
+    }, {
+      "text" : "nie Może pani mówić"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/AdIsActual",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "ogłoszenie jest aktualne"
+    }, {
+      "text" : "Oczywiście, jest aktualne"
+    }, {
+      "text" : "możesz być pewien, że jest aktualne"
+    }, {
+      "text" : "Mieszkanie jest nadal aktualne"
+    }, {
+      "text" : "tak, jest aktualne"
+    }, {
+      "text" : "No! To jest nadal aktualne!"
+    }, {
+      "text" : "jest do wynajęcia"
+    }, {
+      "text" : "mieszkanie jest nadal do wynajęcia ogłoszenie"
+    }, {
+      "text" : "to znaczy jest aktualne"
+    }, {
+      "text" : "aktualny"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/AdIsNotActual",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Nie, ogłoszenie nie jest już aktualne."
+    }, {
+      "text" : "Niestety, już nieaktualne"
+    }, {
+      "text" : "Nie, ktoś już wynajął tę kwaterę"
+    }, {
+      "text" : "Nie, mieszkanie nie jest już aktualne"
+    }, {
+      "text" : "Nie, mieszkanie zostało już wynajęte"
+    }, {
+      "text" : "No nie, już nieaktualne"
+    }, {
+      "text" : "Niestety, ogłoszenie nie jest już aktualne"
+    }, {
+      "text" : "Przykro mi, ale ktoś już znalazł najemcę na to mieszkanie"
+    }, {
+      "text" : "tak już nieaktualne"
+    }, {
+      "text" : "jest nieaktualne Dziękuję"
+    }, {
+      "text" : "nie nie jest do wynajęcia"
+    }, {
+      "text" : "nie już nieaktualne Dziękuję"
+    }, {
+      "text" : "weźmie nieaktualne wszyscy"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/WaitClients",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "dzisiaj mam osoby które przychodzą zobaczyć Jeżeli im się nie spodoba nie spasuje to będzie za wynajęcia"
+    }, {
+      "text" : "Czekam na kolejnego klienta. powinien dzisiaj obejrzeć"
+    }, {
+      "text" : "już raczej nie przeprosisz zrobiłam sobie jakieś spotkania i Jutro prawdopodobnie nie będzie ogłoszenie gdyby się pokazywał pojutrze to proszę jeszcze raz zadzwonić"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/OfferIsInteresting",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "jestem zainteresowana"
+    }, {
+      "text" : "Chciałbym dowiedzieć się więcej o ofercie"
+    }, {
+      "text" : "To brzmi ciekawie"
+    }, {
+      "text" : "Jestem otwarta na nowe możliwości"
+    }, {
+      "text" : "może pani mieścić"
+    }, {
+      "text" : "zainteresowany pani ofertą"
+    }, {
+      "text" : "tak może pani dodać wyrazem na to zgodę"
+    }, {
+      "text" : "Jestem zainteresowany zainteresowany pani ofertą"
+    }, {
+      "text" : "dobrze to Proszę dodać skoro to jest bezpłatne"
+    }, {
+      "text" : "może pani umieścić"
+    }, {
+      "text" : "tak może pani"
+    }, {
+      "text" : "nie będę miała nic przeciwko"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/DontUnderstand",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Przepraszam, nie usłyszałem. Czy możesz powtórzyć?"
+    }, {
+      "text" : "Nie dosłyszałem, czy możesz powiedzieć to jeszcze raz?"
+    }, {
+      "text" : "Możesz powtórzyć to, co właśnie powiedziałeś?"
+    }, {
+      "text" : "Słyszę słabo, proszę, powtórz to."
+    }, {
+      "text" : "Nie zrozumiałam, możesz powiedzieć jeszcze raz?"
+    }, {
+      "text" : "Jeszcze raz, coś przerwało."
+    }, {
+      "text" : "Przepraszam może Pani powtórzyć"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/NotNow",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Nie mogę rozmawiać."
+    }, {
+      "text" : "Nie czuję się komfortowo."
+    }, {
+      "text" : "Oddzwoń"
+    }, {
+      "text" : "Zadzwoń do mnie później."
+    }, {
+      "text" : "Proszę pani jest tylko nie mogę w tej chwili rozmawiać prosiłbym o telefon za godzinę bo mam miejsce w trakcie narady nie mogę przyjść dobrze"
+    }, {
+      "text" : "mogłabym odpowiedzieć za pół godziny"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/AutoAnswer",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "wprowadzony numer nie występuje w systemie Wprowadź ponownie numer telefonu dla którego chcesz odsłuchać wiadomości"
+    }, {
+      "text" : "Przepraszamy skrzynka na którą próbujesz zdeponować wiadomość jest pełna nastąpi"
+    }, {
+      "text" : "chwilowo niedostępny Wyślij mu bezpłatną wiadomość SMS o treści Proszę o pilny kontakt Wybierz jeden Zadzwonię do ciebie później Wybierz dwa odezwij się chwili wybierz trzy Spóźnię się proszę zaczekaj na mnie Wybierz 4 przepraszam nie dojadę Nie czekaj na mnie"
+    }, {
+      "text" : "abonent chwilowo niedostępny Wyślij mu bezpłatną wiadomość SMS o treści Proszę o pilny kontakt Wybierz jeden Zadzwonię do ciebie później Wybierz dwa Odezwij się w wolnej chwili wybierz trzy Spóźnię się proszę zaczekaj na mnie Wybierz 4 przepraszam nie dojadę Nie czekaj"
+    }, {
+      "text" : "SMS o treści Proszę o pilny kontakt Wybierz jeden Zadzwonię do ciebie później Wybierz dwa Odezwij się w wolnej chwili wybierz trzy Spóźnię się proszę zaczekaj na mnie Wybierz 4 przepraszam nie dojadę Nie czekaj na mnie Wybierz 5 Mam awarię zadzwoń"
+    }, {
+      "text" : "aby wysłać wiadomość Rozłącz się jeżeli chcesz poznać więcej opcji naciśnij"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/WhatAd",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "jakiego mieszkania"
+    }, {
+      "text" : "A jakiego mieszka"
+    }, {
+      "text" : "jakiego mieszkania adres"
+    }, {
+      "text" : "ale które mieszkanie panią interesuje"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/SelfPromotion",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "nie bo my sam się reklamujemy"
+    }, {
+      "text" : "chcemy sami spróbować"
+    }, {
+      "text" : "Chcemy spróbować sami wypromować mieszkanie"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/OfferNeedMoreInfo",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Czy mogę dowiedzieć się więcej na temat Waszej oferty?"
+    }, {
+      "text" : "Chciałbym dowiedzieć się więcej o ofercie."
+    }, {
+      "text" : "Jakie są koszty i warunki umieszczenia ogłoszenia?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/QuestionsConsent",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "możesz zadać swoje pytania."
+    }, {
+      "text" : "Oczywiście, pytaj śmiało"
+    }, {
+      "text" : "pytaj, co Cię interesuje?"
+    }, {
+      "text" : "Pewnie, czekam na Twoje pytania."
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/BotChallenge",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Czy to jest bot?"
+    }, {
+      "text" : "To wygląda na działanie bota, czy tak jest?"
+    }, {
+      "text" : "Jestem ciekawy ciekawa, czy rozmawiam z botem?"
+    }, {
+      "text" : "Czy rozmawiam z maszyną?"
+    }, {
+      "text" : "To jest automatyczna odpowiedź, prawda?"
+    }, {
+      "text" : "do pani jest sztuczna i dlatego pani tego nie rozumie"
+    }, {
+      "text" : "Czy pani jest automatem"
+    }, {
+      "text" : "bo rozmawiam z robotem a nie z osobą z człowiekiem dlatego"
+    }, {
+      "text" : "Czy pani jest automatem czy pani jest żywym człowiekiem"
+    }, {
+      "text" : "tak ale rozmawiam z osobą czy z automatem"
+    }, {
+      "text" : "jest pani botem"
+    }, {
+      "text" : "No ja Rozmawiam teraz z robotą"
+    }, {
+      "text" : "czy ja Rozmawiam teraz z botem"
+    }, {
+      "text" : "ale czemu rozmawiam z komputerem"
+    }, {
+      "text" : "Proszę o odpowiedź czy rozmowę z automatem "
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/AreYouAnAgent",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "a czy pani jest z jakiegoś biura nieruchomości"
+    }, {
+      "text" : "pani jest biura czy pani jeszcze prywatna nosową"
+    }, {
+      "text" : "stale Czy pani jest agencja"
+    }, {
+      "text" : "bo pani dzwoni z agencji tak"
+    }, {
+      "text" : "Ale pani jest z klientem czy z agencji"
+    }, {
+      "text" : "czy będzie pani w agencji czy prywatnie halo"
+    }, {
+      "text" : "dzwoni pani agentki czyli prywatnie"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/CompanyName",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "A jaka to firma"
+    }, {
+      "text" : "Jak nazywa się firma?"
+    }, {
+      "text" : "A jaka to strona internetowa?"
+    }, {
+      "text" : "A jaka to jest strona czy ja"
+    }, {
+      "text" : "Ale jaka strona jest konikowie bo ja nie słyszę jak się nazywa"
+    }, {
+      "text" : "Na jaką stronę internetową"
+    }, {
+      "text" : "z jakiej firmy pani dzwoni"
+    }, {
+      "text" : "a ja z jakiego portalu jest pani"
+    }, {
+      "text" : "Na jakim Na jakim portalu"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Rejection",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "nie"
+    }, {
+      "text" : "nie dozwolony"
+    }, {
+      "text" : "Nie chcę"
+    }, {
+      "text" : "Jestem temu przeciwny."
+    }, {
+      "text" : "nie możesz"
+    }, {
+      "text" : "Nie zgadzam się"
+    }, {
+      "text" : "Nie dziękuję"
+    }, {
+      "text" : "mam coś przeciwko"
+    }, {
+      "text" : "Nie dziękuję mamy bezpośrednio"
+    }, {
+      "text" : "nie nie nie dziękuję bardzo"
+    }, {
+      "text" : "Nie dziękuję do widzenia"
+    }, {
+      "text" : "nie nie nie"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Commission",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "jaką prowizję pobiera"
+    }, {
+      "text" : "czy przypadku podpisania umowy najmu czy ja ponoszę jakieś koszt"
+    }, {
+      "text" : "z mojej strony nie ponosi żadnych żadnych wpłat"
+    }, {
+      "text" : "czy to jest bezpłatne"
+    }, {
+      "text" : "pytam Jaki będzie koszt tego"
+    }, {
+      "text" : "pytam jaki koszt będzie tego"
+    }, {
+      "text" : "na jakich warunkach"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/RepeatOffer",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Jaka jest oferta?"
+    }, {
+      "text" : "Co mi oferujesz?"
+    }, {
+      "text" : "O jakiej ofercie mówisz?"
+    }, {
+      "text" : "Opowiedz mi jeszcze raz o swojej propozycji"
+    }, {
+      "text" : "jaką ofertą"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/IamAgent",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "my jesteśmy agentem nieruchomości"
+    }, {
+      "text" : "Jesteśmy agencją nieruchomości"
+    }, {
+      "text" : "Ja też jestem agentem nieruchomości"
+    }, {
+      "text" : "Jako agent nieruchomości"
+    }, {
+      "text" : "Jako reprezentant agencji nieruchomości"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/GoodBuy",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "do widzenia"
+    }, {
+      "text" : "Do zobaczenia"
+    }, {
+      "text" : "Żegnaj"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.date", "duckling.time-of-day", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  } ],
+  "faq" : [ ],
+  "skills" : [ ]
+}

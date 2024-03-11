@@ -1,0 +1,23 @@
+{
+  "positions" : [ {
+    "id" : "/Questions/Buy",
+    "x" : 1273,
+    "y" : 796
+  }, {
+    "id" : "/Questions/WhenCanRent",
+    "x" : 799,
+    "y" : 680
+  }, {
+    "id" : "/Questions/Animal",
+    "x" : 268,
+    "y" : 645
+  }, {
+    "id" : "/Questions/Foreinger",
+    "x" : -127,
+    "y" : 657
+  }, {
+    "id" : "/Questions/Family",
+    "x" : -441,
+    "y" : 406
+  } ]
+}
